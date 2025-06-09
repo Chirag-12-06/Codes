@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <!-- FORMS  -->
+    <form>
+        <h2>User Information</h2>
+        <div class="con">
+            <div class="input-name">
+                <label>First Name:</label>
+                <input type="text" placeholder="First Name" name="Nam">
+            </div>
+            <div class="input-name">
+                <label>Middle Name:</label>
+                <input type="text" placeholder="Middle Name" name="Nam">
+            </div>
+            <div class="input-name">
+                <label>Last Name:</label>
+                <input type="text" placeholder="Last Name" name="Nam">
+            </div>
+        </div>
+        <fieldset>
+            <legend>
+                Gender:
+            </legend>
+            <input type="radio" name="Gender" id="" required>Male <br> 
+            <input type="radio" name="Gender">Female 
+            <br>
+        </fieldset>
+        <p>Address: 
+            <textarea name="Address" id="" cols="40" rows="10" placeholder="Full Address"></textarea>
+        </p>
+        <p>Email: <input type="email" placeholder="Id" name="email"></p>
+        <p>MobileNo: <input type="number" placeholder="Mobile No." name="no"></p>
+        <p>Password: <input type="password" name="pass"></p>
+        <p>DOB: <input type="date" name="DOB"></p>
+        <p>Pincode: <input type="number" name="Pincode" placeholder="123456"></p>
+        <hr>
+        <h2>Card Information</h2>
+        <p>Card Type
+            <select name="Card" id="">
+                <option value="">Select the Card</option>
+                <option value="1">Visa</option>
+                <option value="2">Rupay</option>
+                <option value="3">Mastercard</option>
+            </select>
+        </p>
+        <p>Card No. <input type="number" name="CardNo" id="" placeholder="1111-2222-3333-4444"></p>
+        <p>Expiry <input type="date" name="Expiry" id=""></p>
+        <p>CVV <input type="number" name="CVV" id="" placeholder="123"></p>
+        <p><input type="submit" value="Pay Now"></p>
+     </form>
+</body>
+</html>
