@@ -11,11 +11,11 @@ with open('text.txt', 'r') as file:
 
 
 with open('text.txt', 'w') as file:
-    file.write('resvsd')
+    file.write('replace this text\n')
 
 with open('text.txt', 'a') as file:
-    file.write('resvsd')
+    file.write('replace this text\n')
 
-lines=['fe','54','yjuyfbd']
+lines=['fe\n','54\n','u\n']
 with open('text.txt','a') as file:
     file.writelines(lines)
