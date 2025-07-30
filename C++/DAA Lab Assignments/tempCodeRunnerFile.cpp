@@ -1,2 +1,0 @@
-ADAABAABA";
-    string pat = "AABA"
